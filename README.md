@@ -1,7 +1,7 @@
 # 🚗 Formulario de Cotización para Lavadero de Vehículos
 
 <p align="center">
-  <img src="https://imgur.com/a/nQYYF6y" alt="Logo de la aplicación" width="200" height="200">
+  <img src="./public/logo1.svg" alt="Logo de la aplicación" width="200" height="200">
 </p>
 
 ## 📝 Descripción
