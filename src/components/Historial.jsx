@@ -35,16 +35,22 @@ const Historial = () => {
 
     </header>
       <ul>
-        {historial.map((elemento, index) => (
-          <li key={index} className={styles.liHistorial}>
-            <p>Fecha: {elemento.fecha}</p>
-            <p>Hora: {elemento.time}</p>
-            <img src={elemento.vehiculo.img} alt="" className={styles.imgHistorial}/>
-            <p>Vehiculo: {elemento.vehiculo.content}</p>
-            <p>Servicio: {elemento.servicio.content}</p>
-            <p>Total: ${elemento.total}</p>
+        {historial.length === 0 ? (
+          <li className={styles.liHistorial}>
+            <p>El historial esta vacio.</p>
           </li>
-        ))};
+        ) : (
+          historial.map((elemento, index) => (
+            <li key={index} className={styles.liHistorial}>
+              <p>Fecha: {elemento.fecha}</p>
+              <p>Hora: {elemento.time}</p>
+              <img src={elemento.vehiculo.img} alt="" className={styles.imgHistorial} />
+              <p>Vehiculo: {elemento.vehiculo.content}</p>
+              <p>Servicio: {elemento.servicio.content}</p>
+              <p>Total: ${elemento.total}</p>
+            </li>
+          ))
+        )}
       </ul>
     </>
   );
