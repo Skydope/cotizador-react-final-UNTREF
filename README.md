@@ -13,7 +13,6 @@ El componente `Formulario` se encarga de gestionar la interfaz de usuario para q
 ## 📁 Estructura del Archivo
 - **Imports:**
   - `React`, `useEffect`, `useState`: Importación de React y sus hooks para el manejo de estados y efectos.
-  - `Form` de `react-router-dom`: Aunque importa `Form`, parece no utilizarse en el código actual.
   - `Swal` de 'sweetalert2': Librería para mostrar alertas interactivas.
   - `styles` de `"../css/Formulario.module.css"`: Importación de estilos para el componente.
 
