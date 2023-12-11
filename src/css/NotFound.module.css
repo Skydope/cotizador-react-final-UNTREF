@@ -1,0 +1,14 @@
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+    margin-top: 1rem;
+}
+
+.notFound{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mapache{
+    width: 250px;
+}
