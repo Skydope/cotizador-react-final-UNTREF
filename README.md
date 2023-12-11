@@ -7,6 +7,9 @@
 ## 📝 Descripción
 El componente `Formulario` se encarga de gestionar la interfaz de usuario para que los usuarios ingresen la información necesaria para cotizar el lavado de un vehículo. La aplicación utiliza datos de vehículos y servicios almacenados en un archivo JSON (`data.json`). Los resultados de la cotización se pueden guardar en un historial.
 
+## 🚀 Deploy en Vercel
+- `Vercel Link`: <a href="https://cotizador-react-final-untref.vercel.app/">Vercel</a>
+
 ## 📁 Estructura del Archivo
 - **Imports:**
   - `React`, `useEffect`, `useState`: Importación de React y sus hooks para el manejo de estados y efectos.
